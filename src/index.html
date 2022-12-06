@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hogwart's Gallery</title>
+        <link rel="icon" type="image/x-icon" href="./img/hogwart-icon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
+        <script src="./index.ts" type="module"></script>
+        <script src="https://kit.fontawesome.com/5c3581ff42.js" crossorigin="anonymous"></script>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <nav class="title">Hogwart's gallery<i class="fa-solid fa-wand-magic-sparkles"></i></nav>
+        </div>
+        <div class="buttons-section">
+            <button id="hogwart">All students</button>
+            <button id="gryffindor">Gryffindor</button>
+            <button id="slytherin">Slytherin</button>
+            <button id="hufflepuff">Hufflepuff</button>
+            <button id="ravenclaw">Ravenclaw</button>
+            <button id="favorites">Favorites</button>
+        </div>
+        <div id="main">
+            <h1 id="section-title"></h1>
+            <div id="grid-manipulator"></div>
+            <div id="view-container" class="view-container"></div>
+        </div>
+        <div id="modal" class="modal"></div>
+    </body>
+</html>
